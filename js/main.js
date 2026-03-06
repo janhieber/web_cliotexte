@@ -3,8 +3,7 @@
   var details = document.querySelectorAll("details");
   details.forEach((detail) => {
     detail.addEventListener("toggle", () => {
-      if (detail.open)
-        closeDetailsExcept(detail);
+      if (detail.open) closeDetailsExcept(detail);
     });
   });
   function closeDetailsExcept(targetDetail) {
