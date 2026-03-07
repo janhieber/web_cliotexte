@@ -473,6 +473,11 @@ main.kontakt iframe {
     display: table;
     text-align: left;
   }
+
+  .referenzen .text-center {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
 }
 @media only screen and (max-width: 599px) {
   .ref > div.col p {
